@@ -1,0 +1,219 @@
+.pilot-list-card {
+  background-color: #242537;
+  padding: 0 2.4rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /*justify-content: ; */
+  width: 70%;
+  height: 12.5rem;
+  margin-bottom: 2.4rem;
+  /* testing shit */
+  position: relative;
+  border-radius: 0 20px 20px 20px;
+  /* overflow: hidden; */
+
+  /* clip-path: inset(0 0 calc(45%) 0); */
+}
+
+.pilot-border-generic {
+  border-top: 0.6rem solid white;
+  border-right: 0.6rem solid white;
+}
+
+/* .pilot-list-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  border-top: 0.6rem solid #21b8a1;
+  border-right: 0.6rem solid #21b8a1;
+  clip-path: inset(0 0 calc(45%) 0);
+} */
+
+.pilot-country-flag {
+  border-radius: 4px;
+  height: 2rem;
+  margin-right: 1.4rem;
+}
+
+.pilot-number-container {
+  box-sizing: content-box;
+  background-color: #fffeff;
+  align-self: center;
+  padding: 1.2rem;
+  border-radius: 0 0 12px 0;
+  margin-left: 1.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #1f1f22;
+  position: relative;
+  width: 4.2rem;
+  height: 4.2rem;
+
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-flag-name {
+  color: #fbfcfa;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.pilot-name {
+  font-size: 2.6rem;
+  width: 24rem;
+  text-align: start;
+  line-height: 0;
+}
+
+.container-name-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-name {
+  color: #787c88;
+  text-align: start;
+  align-self: flex-start;
+  margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.vertical-line-generic {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: white;
+}
+
+.pilot-points {
+  color: #fffeff;
+  align-self: center;
+  font-size: 2.4rem;
+}
+
+.button {
+  background-color: #191a27;
+  border: none;
+  width: 3.6rem;
+  height: 30%;
+  transform: skewX(-20deg);
+  align-self: center;
+  cursor: pointer;
+}
+
+.button-text {
+  display: inline-block;
+  color: #d3d3d7;
+  transform: skewX(20deg);
+  font-size: 1.6rem;
+}
+
+/********* TEAM STYLE ************/
+.best-team-container {
+  top: 6%;
+  left: 65%;
+  width: 52rem;
+  height: 26rem;
+  background-color: #242537;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 2.4rem 4.8rem rgba(255, 255, 255, 0.075);
+}
+
+.best-team-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  border: 0.6rem solid #0e0f16;
+
+  clip-path: inset(0 0 calc(65%) 0);
+}
+
+.first-player-container {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #fffeff;
+}
+
+.team-info-conainer {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  color: #fffeff;
+}
+
+.second-player-container {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #fffeff;
+}
+
+.first-player-image {
+  display: inline-block;
+  height: auto;
+  width: 90%;
+}
+
+.first-player-name {
+  font-size: 1.8rem;
+  /* color: #fffeff */
+}
+
+.first-player-flag-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.best-team-flag {
+  border-radius: 4px;
+  height: 2rem;
+  margin-right: 0.8rem;
+}
+
+.best-team-player-points {
+  font-size: 2.4rem;
+}
+
+.team-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fffeff;
+}
+
+.best-team-points {
+  font-size: 3.6rem;
+}
+
+.best-team-name {
+  font-size: 1.4rem;
+}

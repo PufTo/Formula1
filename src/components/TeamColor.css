@@ -1,0 +1,119 @@
+.vertical-line-mercedes {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #6cd3bf;
+}
+
+.border-line-mercedes {
+  border-top: 0.6rem solid #6cd3bf;
+  border-right: 0.6rem solid #6cd3bf;
+}
+
+.vertical-line-red-bull {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #1e5bc6;
+}
+
+.border-line-red-bull {
+  border-top: 0.6rem solid #1e5bc6;
+  border-right: 0.6rem solid #1e5bc6;
+}
+
+.vertical-line-mclaren {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #f58020;
+}
+
+.border-line-mclaren {
+  border-top: 0.6rem solid #f58020;
+  border-right: 0.6rem solid #f58020;
+}
+
+.vertical-line-alpine {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #2293d1;
+}
+
+.border-line-alpine {
+  border-top: 0.6rem solid #2293d1;
+  border-right: 0.6rem solid #2293d1;
+}
+
+.vertical-line-aston {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #2d826d;
+}
+
+.border-line-aston {
+  border-top: 0.6rem solid #2d826d;
+  border-right: 0.6rem solid #2d826d;
+}
+
+.vertical-line-ferrari {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #ed1c24;
+}
+
+.border-line-ferrari {
+  border-top: 0.6rem solid #ed1c24;
+  border-right: 0.6rem solid #ed1c24;
+}
+
+.vertical-line-alpha-tauri {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #4e7c9b;
+}
+
+.border-line-alpha-tauri {
+  border-top: 0.6rem solid #4e7c9b;
+  border-right: 0.6rem solid #4e7c9b;
+}
+
+.vertical-line-alfa-romeo {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #b12039;
+}
+
+.border-line-alfa-romeo {
+  border-top: 0.6rem solid #b12039;
+  border-right: 0.6rem solid #b12039;
+}
+
+.vertical-line-haas {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #b6babd;
+}
+
+.border-line-haas {
+  border-top: 0.6rem solid #b6babd;
+  border-right: 0.6rem solid #b6babd;
+}
+
+.vertical-line-williams {
+  width: 0.6rem;
+  height: 5.6rem;
+  margin: 0 3.2rem;
+  background-color: #37bedd;
+}
+
+.border-line-williams {
+  border-top: 0.6rem solid #37bedd;
+  border-right: 0.6rem solid #37bedd;
+}
